@@ -1,0 +1,21 @@
+﻿<Window x:Class="practicaEsqueletoCompleto2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="730" Width="1107" Loaded="Window_Loaded_1" Closed="Window_Closed" Closing="Window_Closing">
+    <Grid Margin="-10,0,10,-6">
+        <Canvas Name="canvasEsqueleto" HorizontalAlignment="Left" Height="350" VerticalAlignment="Top" Width="489"/>
+        <Label Content="BRAZO DERECHO: " HorizontalAlignment="Left" Margin="10,554,0,0" VerticalAlignment="Top" Height="36" Width="194" FontSize="22"/>
+        <Label x:Name="txt_brazoderecho" Content="0,0,0" HorizontalAlignment="Left" Margin="194,541,0,0" VerticalAlignment="Top" Height="66" Width="507" FontSize="36"/>
+        <Label x:Name="txt_Calibracion" Content="DESCALIBRADO" HorizontalAlignment="Left" Margin="10,500,0,0" VerticalAlignment="Top" Height="36" Width="195" FontSize="22" Foreground="#FFFF0303"/>
+        <Label Content="CABEZA:  " HorizontalAlignment="Left" Margin="11,612,0,0" VerticalAlignment="Top" Height="36" Width="194" FontSize="22"/>
+        <Label x:Name="txt_CABEZA" Content="0,0,0" HorizontalAlignment="Left" Margin="194,590,0,0" VerticalAlignment="Top" Height="66" Width="507" FontSize="36"/>
+        <Label Content="BRAZO DERECHO: " HorizontalAlignment="Left" Margin="847,44,0,0" VerticalAlignment="Top" Height="36" Width="194" FontSize="22"/>
+        <Label Content="Movimiento en Y: " HorizontalAlignment="Left" Margin="847,85,0,0" VerticalAlignment="Top" Height="36" Width="194" FontSize="22"/>
+        <Label Content="Movimiento en X: " HorizontalAlignment="Left" Margin="847,175,0,0" VerticalAlignment="Top" Height="36" Width="194" FontSize="22"/>
+        <Label Content="Movimiento en Z: " HorizontalAlignment="Left" Margin="847,273,0,0" VerticalAlignment="Top" Height="36" Width="194" FontSize="22"/>
+        <Label x:Name="txt_movimientoY" Content="SIN MOVIMIENTO" HorizontalAlignment="Left" Margin="847,134,0,0" VerticalAlignment="Top" Height="36" Width="194" FontSize="22" Foreground="#FF0062FF"/>
+        <Label x:Name="txt_movimientoX" Content="SIN MOVIMIENTO" HorizontalAlignment="Left" Margin="847,232,0,0" VerticalAlignment="Top" Height="36" Width="194" FontSize="22" Foreground="#FF0062FF"/>
+        <Label x:Name="txt_movimientoZ" Content="SIN MOVIMIENTO" HorizontalAlignment="Left" Margin="847,324,0,0" VerticalAlignment="Top" Height="36" Width="194" FontSize="22" Foreground="#FF0062FF"/>
+
+    </Grid>
+</Window>
